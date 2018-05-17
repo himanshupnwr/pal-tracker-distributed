@@ -19,6 +19,7 @@ function join_by {
 }
 
 function start_server() {
+    export DISABLE_AUTH=true
     dotnet run --project "Applications/${1}Server/${1}Server.csproj" --urls "http://*:${2}"
 }
 
