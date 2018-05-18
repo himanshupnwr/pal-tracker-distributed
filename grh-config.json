@@ -2,20 +2,24 @@
     "branchToRevise": "solution",
     "incrementCommits": [
         {
+            "message": "Add config server",
+            "tags": ["config-server-solution"]
+        },
+        {
             "message": "Add security",
-            "tags": ["config-server"]
+            "tags": ["security-solution","config-server-start"]
         },
         {
             "message": "Enable circuit breaker",
-            "tags": ["security"]
+            "tags": ["circuit-breaker-solution","security-start"]
         },
         {
             "message": "Enable service discovery",
-            "tags": ["circuit-breaker"]
+            "tags": ["service-discovery-solution","circuit-breaker-start"]
         },
         {
             "message": "Initial commit",
-            "tags": ["distributed-system", "service-discovery"]
+            "tags": ["distributed-system-start", "distributed-system-solution", "service-discovery-start"]
         }
     ]
 }
