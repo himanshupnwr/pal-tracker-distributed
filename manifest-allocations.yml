@@ -4,9 +4,9 @@ applications:
   instances: 1
   memory: 256M
   routes:
-  - route: allocations-pal-GARIGIPATI.apps.pikes.pal.pivotal.io
+  - route: allocations-pal-GARIGIPATI.cfapps.io
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-GARIGIPATI.apps.pikes.pal.pivotal.io/
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-GARIGIPATI.cfapps.io/
   services:
   - tracker-allocations-database
