@@ -6,6 +6,8 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Pivotal.Discovery.ClientCore" Version="2.1.1" />
+    <PackageReference Include="Steeltoe.Extensions.Configuration.CloudFoundryCore" Version="2.1.1" />
     <ProjectReference Include="../../Components/Allocations/Allocations.csproj" />
     <ProjectReference Include="../../Components/DefaultRoute/DefaultRoute.csproj" />
     <PackageReference Include="Steeltoe.CloudFoundry.Connector.EFCore" Version="2.1.1" />

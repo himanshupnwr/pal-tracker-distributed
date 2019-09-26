@@ -6,7 +6,6 @@ applications:
   routes:
   - route: allocations-pal-GARIGIPATI.cfapps.io
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-GARIGIPATI.cfapps.io/
   services:
   - tracker-allocations-database
+  - tracker-service-registry
