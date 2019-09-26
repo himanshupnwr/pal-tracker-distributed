@@ -5,9 +5,12 @@ applications:
   memory: 256M
   routes:
   - route: timesheets-pal-GARIGIPATI.cfapps.io
-  path: Applications/TimesheetsServer/bin/Release/netcoreapp2.1/publish  
+  path: Applications/TimesheetsServer/bin/Release/netcoreapp2.1/publish
+  env:
+    GRANT_TYPE: client_credentials
   services:
   - tracker-timesheets-database
   - tracker-service-registry
   - tracker-circuit-breaker-dashboard
   - tracker-amqp
+  - tracker-sso
